@@ -15,4 +15,6 @@ class Settings:
     DB_USER = os.getenv("DB_USER")
     DB_PASSWORD = os.getenv("DB_PASSWORD")
 
+    N8N_WEBHOOK_URL = os.getenv("N8N_WEBHOOK_URL")
+
 settings = Settings()
