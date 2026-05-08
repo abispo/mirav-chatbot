@@ -1,0 +1,11 @@
+GET https://api.bispo.eti.br/chatbot/health HTTP/1.1
+Content-Type: application/json
+
+###
+POST https://api.bispo.eti.br/chatbot/chat HTTP/1.1
+Content-Type: application/json
+X-Api-Key: 7vN8aL2cRkP9mQ1sY4xWp6HsVbA3fZ0U
+
+{
+    "message": "Quero mais informações sobre o sabah"
+}
